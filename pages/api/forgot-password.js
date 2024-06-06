@@ -133,7 +133,7 @@ export default async function forgotPassword(req, res) {
          <p>Dear ${isExist?.name},</p>
          <p>We received a request to reset your password for your buyNow.com account. If you did not request a password reset, please ignore this email. Your password will not change.</p>
          <p>To reset your password, please click the link below:</p>
-         <a href="http://localhost:3000/reset-password/${isExist?._id}/${addTokenToUserData?.verifyToken}"> Click here to reset password </a>
+         <a href="https://ecommerceadmin-qnpd6d98t-kaushiks-projects-611a0910.vercel.app/reset-password/${isExist?._id}/${addTokenToUserData?.verifyToken}"> Click here to reset password </a>
          <p>For your security, this link will expire after one time access. If you need a new link, you can request another password reset on the buyNow.com website.</p>
          <p>If you have any issues or did not request this change, please contact our support team at support@buyNow.com.</p>
          <p>Best regards,</p>
