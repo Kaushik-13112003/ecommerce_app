@@ -60,7 +60,10 @@ const Products = () => {
           {allProducts?.map((ele, idx) => {
             return (
               <>
-                <div key={idx} className="flex justify-between p-4 ">
+                <div
+                  key={idx}
+                  className="flex justify-between sm:flex-row flex-col gap-4 p-4 "
+                >
                   <div>{ele?.name}</div>
                   <div className="flex gap-4">
                     <Link href={`/products/view/${ele?._id}`}>
