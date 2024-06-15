@@ -193,7 +193,7 @@ const Navbar = ({ show }) => {
                   pathName === "/profile" ? "active" : ""
                 }`}
               >
-                <CgProfile size={30} />
+                <CgProfile size={25} />
 
                 <p>Profile</p>
               </Link>
