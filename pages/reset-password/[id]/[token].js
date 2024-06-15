@@ -76,7 +76,7 @@ const ResetPassword = () => {
               <div className="flex flex-col gap-3 p-2 ">
                 <label htmlFor=" password">Password</label>
                 <input
-                  type="text"
+                  type="password"
                   name="password"
                   placeholder="xyz"
                   className="bg-orange-200 rounded-lg p-2"
@@ -87,7 +87,7 @@ const ResetPassword = () => {
               <div className="flex flex-col gap-3 p-2 ">
                 <label htmlFor="confirm password">Confirm Password</label>
                 <input
-                  type="text"
+                  type="password"
                   name="confirm password"
                   placeholder="xyz"
                   className="bg-orange-200 rounded-lg p-2"

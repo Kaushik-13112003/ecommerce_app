@@ -111,7 +111,7 @@ const Login = () => {
             <div className="flex flex-col gap-3 p-2  mb-5">
               <label htmlFor=" password">Password</label>
               <input
-                type="text"
+                type="password"
                 name="password"
                 placeholder=" xyz"
                 className="bg-orange-200 rounded-lg p-2"
